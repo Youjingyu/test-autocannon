@@ -1,0 +1,4 @@
+.vscode
+nodejs_restclient.log
+*.heapsnapshot
+node_modules

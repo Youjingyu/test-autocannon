@@ -1,0 +1,23 @@
+{
+  "name": "test-autocannon",
+  "version": "0.0.1",
+  "description": "test autocannon",
+  "main": "master.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=prod node ./master.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "whale",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "koa": "^2.5.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0"
+  }
+}
