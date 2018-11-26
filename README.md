@@ -2,8 +2,8 @@ an example server that reproduces the behavior: https://github.com/mcollina/auto
 
 ### start 
 ```bash
-git clone 
-cd 
+git clone https://github.com/Youjingyu/test-autocannon.git
+cd test-autocannon
 yarn
 npm run start
 ```
@@ -19,4 +19,10 @@ TypeError: Cannot read property 'tick' of undefined
     at EventEmitter.instance.on (/usr/local/lib/node_modules/autocannon/lib/progressTracker.js:67:57)
 ```
 
+### Env
+```
+Node: v8.10.0
+Operating System: macos high sierra 10.13.6
+autocannon: v3.1.0
+```
 
